@@ -28,9 +28,9 @@
         },
         {
             "type": "textarea",
-            "id": "author_bio",
+            "field_type": "author_bio",
             "label": "Author Bio",
-            "default": "I live in Brooklyn and I am a software developer for The New York Times."
+            "default": "I am a software developer living in Brooklyn."
         }
     ]
 }
