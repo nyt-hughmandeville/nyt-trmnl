@@ -1,19 +1,17 @@
-{% assign story = rss.channel.item[0] %}
-
 <style>
   .image {
     height: 50vh;
   }
 </style>
 
-<div class="grid grid--cols-3>">
+<div class="grid grid--cols-2>">
   <div class="col col--span-1">
     <img
       class="image image-dither"
       src="{{ story.content.url}}"
     >
   </div>
-  <div class="col col--span-2 gap--medium">
+  <div class="col col--span-1 gap--medium">
     <div class="title title-large">{{ story.title }}</div>
     <div class="flex flex--row flex--right">
       <svg
