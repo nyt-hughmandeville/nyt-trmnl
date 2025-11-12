@@ -4,9 +4,9 @@ no_screen_padding: 'no'
 dark_mode: 'no'
 static_data: ''
 polling_verb: get
-polling_url: ''
+polling_url: https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml
 polling_headers: ''
 polling_body: ''
 id: 179487
-name: NYT Trending
+name: NYT Top Story
 refresh_interval: 15
