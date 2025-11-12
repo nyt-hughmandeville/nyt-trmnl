@@ -1,20 +1,16 @@
 {% assign story = rss.channel.item[0] %}
 
 <style>
-  .title {
-    font-weight: 700;
-  }
-  .logo {
-    margin-right: 20px;
+  .image {
+    height: 45vh;
   }
 </style>
 
 <div>
   <div>
     <img
-      class="image image-dither image--fill"
+      class="image image-dither"
       src="{{ story.content.url}}"
-      style="height: 45vh; width: 100%; object-fit: cover;"
     >
   </div>
   <div class="col gap--medium">
@@ -24,7 +20,7 @@
     </div>
     <div class="flex flex--row flex--right">
       <svg
-        class="logo"
+        class="t-logo"
         width="16.097560975609756px"
         height="19px"
         viewBox="0 0 33 41"

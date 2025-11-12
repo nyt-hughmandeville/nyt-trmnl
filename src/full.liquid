@@ -1,15 +1,9 @@
 {% assign story = rss.channel.item[0] %}
 
-<style>
-  .title {
-    font-weight: 700;
-  }
-</style>
-
 <div class="grid grid--cols-3>">
   <div class="col col--span-2">
     <img
-      class="image image-dither image--cover"
+      class="image image-dither"
       src="{{ story.content.url}}"
     >
   </div>
