@@ -1,0 +1,36 @@
+{
+    "name": "NYT Top Story",
+    "identifier": "com.nytimes.nyt-trmnl-top-story",
+    "version": "1.0.0",
+    "author": "Hubert Mandeville",
+    "targets": {
+        "plugin": {
+            "file": "plugin.liquid"
+        },
+        "settings": {
+            "file": "settings.liquid"
+        },
+        "shared": {
+            "file": "shared.liquid"
+        }
+    },
+    "data_sources": {
+        "rss": {
+            "type": "http",
+            "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml",
+            "format": "xml"
+        }
+    },
+    "settings": [
+        {
+            "type": "header",
+            "title": "Author"
+        },
+        {
+            "type": "textarea",
+            "id": "author_bio",
+            "label": "Author Bio",
+            "default": "I live in Brooklyn and I am a software developer for The New York Times."
+        }
+    ]
+}
